@@ -5,17 +5,17 @@ pygame.init()
 fenetre = pygame.display.set_mode((1000,650))
 pygame.display.set_caption("jeu d'aventure")
 font = pygame.font.SysFont ("Impact", 30)
-image1=pygame.image.load("vestiaire france.jpg")   #Tu dois remplir avec les noms des images et leurs types (PNG/JPG/JPEG)(entre les guillemets)
-image2=pygame.image.load("vestiaire england.jpg")    #Il faut donc que tu trouves des images de taille : 1000 * 650 pixels
+image1=pygame.image.load("vestiaire france.jpg")  
+image2=pygame.image.load("vestiaire england.jpg")    
 image3=pygame.image.load("vestiaire qatar.jpg")
 image4=pygame.image.load("vestiaire portugal.jpg")
-image5=pygame.image.load("vestiaire argentine.jpg")    #Plan (chaque numéro correspond à une salle) :
-image6=pygame.image.load("vestiaire paysbas.jpg")    # 3|6|9         Nord
-image7=pygame.image.load("vestiaire bresil.jpg")    # 2|5|8      Ouest Est       Salle 9 : salle secrète donc il faut la clé
-image8=pygame.image.load("vestiaire espagne.jpg")    # 1|4|7         Sud          Salle 5: salle ou on obtient la clé
+image5=pygame.image.load("vestiaire argentine.jpg")   
+image6=pygame.image.load("vestiaire paysbas.jpg")    
+image7=pygame.image.load("vestiaire bresil.jpg")    
+image8=pygame.image.load("vestiaire espagne.jpg")    
 image9=pygame.image.load("Salle trophee.jpg")
 
-text1 = font.render("Equipe de France", True, (0, 0, 0)) # Tu dois remplir avec le nom de la salle (celui qui s'affichera)(entre les guillemets)
+text1 = font.render("Equipe de France", True, (0, 0, 0)) 
 text2 = font.render("Equipe d'angleterre", True, (0, 0, 0))
 text3 = font.render("Equipe du Qatar", True, (0, 0, 0))
 text4 = font.render("Equipe du Portugal", True, (0, 0, 0))
